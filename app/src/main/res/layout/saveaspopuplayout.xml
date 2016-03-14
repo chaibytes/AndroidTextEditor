@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popupwin"
+    android:background="@color/popup">
+
+    <EditText
+        android:id="@+id/poptextbox"
+        android:layout_width="241dp"
+        android:layout_height="34dp"
+        android:text="@string/filesaveas"
+        android:background="#FFCCFF"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/popcancelbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Cancel"
+        android:layout_below="@id/poptextbox"/>
+
+    <Button
+        android:id="@+id/popsavebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_alignTop="@id/popcancelbtn"
+        android:layout_alignRight="@id/poptextbox"
+        android:layout_alignEnd="@id/poptextbox" />
+
+</RelativeLayout>

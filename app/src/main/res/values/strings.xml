@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AndroidTextEditor</string>
+    <string name="filebrowser">File Browser Code</string>
+    <string name="text">Pragyan\'s Text Editor</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text">Type something here...</string>
+    <string name="file">File</string>
+    <string name="edit">Edit</string>
+    <string name="format">Format</string>
+    <string name="tools">Tools</string>
+    <string-array name="file_array">
+        <item>File</item>
+        <item>New</item>
+        <item>Open</item>
+        <item>Rename</item>
+        <item>Save</item>
+        <item>Save As</item>
+        <item>Close</item>
+    </string-array>
+    <string-array name="edit_array">
+        <item>Edit</item>
+        <item>Undo</item>
+        <item>Redo</item>
+        <item>Cut</item>
+        <item>Copy</item>
+        <item>Paste</item>
+    </string-array>
+    <string-array name="format_array">
+        <item>Format</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Underline</item>
+    </string-array>
+    <string-array name="tools_array">
+        <item>Tools</item>
+        <item>Spelling</item>
+        <item>Word Count</item>
+    </string-array>
+    <string name="selectbtn">Select</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="fbtextview">File Browser</string>
+    <string name="filesaveas">Filename</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
